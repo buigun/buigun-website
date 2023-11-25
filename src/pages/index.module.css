@@ -3,16 +3,52 @@
  * and scoped locally.
  */
 
+.align-items-center {
+  align-items: center;
+}
+
 .heroBanner {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url('../../static/img/banner-bg.png');
   padding: 4rem 0;
   text-align: center;
   position: relative;
   overflow: hidden;
+  height: 100vh;
+}
+
+.heroBanner h1,
+.heroBanner p {
+  color: white;
+  text-align: justify;
+}
+
+.heroBanner svg {
+  animation: updown 3s linear infinite;
+  width: 100%;
+  margin-left: 20px;
+}
+@keyframes updown {
+  0% {
+    transform: translateY(-20px);
+  }
+  50% {
+    transform: translateY(20px);
+  }
+  100% {
+    transform: translateY(-20px);
+  }
 }
 
 @media screen and (max-width: 996px) {
   .heroBanner {
     padding: 2rem;
+    height: auto;
+  }
+
+  .heroBanner svg {
+    max-width: 500px;
+    /* margin: 0 auto; */
   }
 }
 

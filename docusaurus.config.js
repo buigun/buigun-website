@@ -6,8 +6,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Buigun, Software Engineer and Writer',
-  tagline: 'Hello! My name is Budi. I love to write codes and words',
+  title: 'Buigun Website',
+  tagline: 'I love to write codes and words',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -173,6 +173,7 @@ const config = {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
       },
+      forceDarkMode: true,
     }),
 };
 
