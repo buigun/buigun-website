@@ -70,9 +70,24 @@ const config = {
           src: 'img/buigun.png',
         },
         items: [
-          { to: '#skills', label: 'Skills', position: 'left' },
-          { to: '#experiences', label: 'Experiences', position: 'left' },
-          { to: '#projects', label: 'Projects', position: 'left' },
+          {
+            to: '/#about',
+            activeBasePath: '/#about',
+            label: 'About',
+            position: 'left',
+          },
+          {
+            to: '/#experiences',
+            activeBasePath: '/#experiences',
+            label: 'Experiences',
+            position: 'left',
+          },
+          {
+            to: '/#projects',
+            activeBasePath: '/#projects',
+            label: 'Projects',
+            position: 'left',
+          },
           { to: 'https://buigun.medium.com/', label: 'Blog', position: 'left' },
           // {
           //   type: 'docSidebar',
@@ -134,16 +149,16 @@ const config = {
             title: 'More',
             items: [
               {
-                label: 'Skills',
-                to: '#skills',
+                label: 'About',
+                to: '/#about',
               },
               {
                 label: 'Experiences',
-                to: '#experiences',
+                to: '/#experiences',
               },
               {
                 label: 'Projects',
-                to: '#projects',
+                to: '/#projects',
               },
               {
                 label: 'Blog',
