@@ -6,8 +6,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
+  title: 'Buigun, Software Engineer and Writer',
+  tagline: 'Hello! My name is Budi. I love to write codes and words',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -64,23 +64,44 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'My Site',
+        title: 'Buigun',
         logo: {
-          alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          alt: 'Buigun Logo',
+          src: 'img/buigun.png',
         },
         items: [
+          { to: '#skills', label: 'Skills', position: 'left' },
+          { to: '#experiences', label: 'Experiences', position: 'left' },
+          { to: '#projects', label: 'Projects', position: 'left' },
+          { to: 'https://buigun.medium.com/', label: 'Blog', position: 'left' },
+          // {
+          //   type: 'docSidebar',
+          //   sidebarId: 'tutorialSidebar',
+          //   position: 'left',
+          //   label: 'Learn',
+          // },
           {
-            type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
-            position: 'left',
-            label: 'Tutorial',
-          },
-          {to: '/blog', label: 'Blog', position: 'left'},
-          {
-            href: 'https://github.com/facebook/docusaurus',
-            label: 'GitHub',
+            type: 'dropdown',
+            label: 'Connect',
             position: 'right',
+            items: [
+              {
+                label: 'Linkedin',
+                href: 'https://linkedin.com/in/buigun',
+              },
+              {
+                label: 'GitHub',
+                href: 'https://github.com/buigun',
+              },
+              {
+                label: 'Twitter',
+                href: 'https://twitter.com/buigun',
+              },
+              {
+                label: 'Instagram',
+                href: 'https://instagram.com/buigun',
+              },
+            ],
           },
         ],
       },
@@ -88,46 +109,50 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: 'Connect',
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs/intro',
-              },
-            ],
-          },
-          {
-            title: 'Community',
-            items: [
-              {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                label: 'Linkedin',
+                href: 'https://linkedin.com/in/buigun',
               },
               {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
+                label: 'GitHub',
+                href: 'https://github.com/buigun',
               },
               {
                 label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
+                href: 'https://twitter.com/buigun',
+              },
+              {
+                label: 'Instagram',
+                href: 'https://instagram.com/buigun',
               },
             ],
           },
+          {},
           {
             title: 'More',
             items: [
               {
-                label: 'Blog',
-                to: '/blog',
+                label: 'Skills',
+                to: '#skills',
               },
               {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                label: 'Experiences',
+                to: '#experiences',
+              },
+              {
+                label: 'Projects',
+                to: '#projects',
+              },
+              {
+                label: 'Blog',
+                to: 'https://buigun.medium.com/',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Buigun`,
       },
       prism: {
         theme: lightCodeTheme,
