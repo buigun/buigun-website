@@ -3,10 +3,6 @@
  * and scoped locally.
  */
 
-.align-items-center {
-  align-items: center;
-}
-
 .heroBanner {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url('../../static/img/banner-bg.png');
@@ -17,13 +13,30 @@
   height: 100vh;
 }
 
+.heroRow {
+  align-items: center;
+}
+
 .heroBanner h1,
-.heroBanner p {
+.heroBanner p,
+.heroBanner a {
   color: white;
   text-align: justify;
 }
 
-.heroBanner svg {
+.heroLinks {
+  text-align: start;
+  display: flex;
+  gap: 16px;
+  margin-top: 16px;
+}
+
+.heroCta {
+  text-align: start;
+  margin-top: 28px;
+}
+
+.heroImage {
   animation: updown 3s linear infinite;
   width: 100%;
   margin-left: 20px;
@@ -48,7 +61,7 @@
 
   .heroBanner svg {
     max-width: 500px;
-    /* margin: 0 auto; */
+    margin: 0;
   }
 }
 
