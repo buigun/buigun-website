@@ -76,12 +76,12 @@ const config = {
             label: 'About',
             position: 'left',
           },
-          {
-            to: '/#experiences',
-            activeBasePath: '/#experiences',
-            label: 'Experiences',
-            position: 'left',
-          },
+          // {
+          //   to: '/#experiences',
+          //   activeBasePath: '/#experiences',
+          //   label: 'Experiences',
+          //   position: 'left',
+          // },
           {
             to: '/#projects',
             activeBasePath: '/#projects',
@@ -152,10 +152,10 @@ const config = {
                 label: 'About',
                 to: '/#about',
               },
-              {
-                label: 'Experiences',
-                to: '/#experiences',
-              },
+              // {
+              //   label: 'Experiences',
+              //   to: '/#experiences',
+              // },
               {
                 label: 'Projects',
                 to: '/#projects',

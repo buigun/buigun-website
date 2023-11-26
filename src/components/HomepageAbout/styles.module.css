@@ -1,0 +1,27 @@
+.homepageAbout {
+  display: flex;
+  align-items: center;
+  padding: 2rem 0;
+  width: 100%;
+}
+
+.titleAbout {
+  font-weight: 600;
+  font-size: 80px;
+  line-height: 85px;
+  letter-spacing: -1px;
+  padding-right: 0px;
+  margin-bottom: 50px;
+}
+
+.storyAbout {
+  text-align: justify;
+}
+
+@media screen and (max-width: 996px) {
+  .titleAbout {
+    font-size: 48px;
+    line-height: 52px;
+    margin-bottom: 32px;
+  }
+}

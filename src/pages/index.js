@@ -2,13 +2,15 @@ import React from 'react';
 import clsx from 'clsx';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
-import HomepageFeatures from '@site/src/components/HomepageFeatures';
 import Link from '@docusaurus/Link';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFileLines } from '@fortawesome/free-regular-svg-icons';
 import { faLinkedinIn, faGithub } from '@fortawesome/free-brands-svg-icons';
 import { TypeAnimation } from 'react-type-animation';
 import HeroImg from '../../static/img/header-img.svg';
+
+import HomepageAbout from '../components/HomepageAbout';
+// import HomepageFeatures from '@site/src/components/HomepageFeatures';
 
 import styles from './index.module.css';
 import 'animate.css';
@@ -19,21 +21,23 @@ function HomepageHeader() {
       <div className={clsx('container')}>
         <div className={clsx('row', styles.heroRow)}>
           <div className={clsx('col col--7')}>
-            <h1 className='hero__title'>
-              {`Buigun, `}
-              <br />
-              <TypeAnimation
-                sequence={[
-                  'Software Engineer',
-                  2000,
-                  'Frontend Developer',
-                  2000,
-                  'Writer',
-                  2000,
-                ]}
-                repeat={Infinity}
-              />
-            </h1>
+            <div className={clsx(styles.heroTitleContainer)}>
+              <h1 className='hero__title'>
+                {`Buigun, `}
+                <br />
+                <TypeAnimation
+                  sequence={[
+                    'Software Engineer',
+                    2000,
+                    'Frontend Developer',
+                    2000,
+                    'Writer',
+                    2000,
+                  ]}
+                  repeat={Infinity}
+                />
+              </h1>
+            </div>
             <p className='hero__subtitle'>
               Hello world! 👋🏻 My name is Budi Indra Gunawan
               <strong>{` (buigun). `}</strong>I have over two years of
@@ -75,7 +79,8 @@ export default function Home() {
     <Layout description='Description will go into a meta tag in <head />'>
       <HomepageHeader />
       <main>
-        <HomepageFeatures />
+        {/* <HomepageFeatures /> */}
+        <HomepageAbout />
       </main>
     </Layout>
   );

@@ -59,9 +59,15 @@
     height: auto;
   }
 
-  .heroBanner svg {
+  .heroImage {
     max-width: 500px;
     margin: 0;
+  }
+}
+
+@media screen and (max-width: 426px) {
+  .heroTitleContainer {
+    min-height: 200px;
   }
 }
 
