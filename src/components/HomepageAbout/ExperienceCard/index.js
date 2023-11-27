@@ -1,25 +1,16 @@
 import React from 'react';
+import clsx from 'clsx';
+import styles from './styles.module.css';
 
 export default function ExperienceCard({ data }) {
   const { imgSrc, title, link, company, period, tasks } = data;
   return (
-    <div className='row' style={{ marginBottom: '10px' }}>
+    <div className={clsx('row', styles.experienceCardContainer)}>
       <div className='col col--3'>
-        <div
-          style={{
-            backgroundColor: '#EBEDF0',
-            borderRadius: '8px',
-            textAlign: 'center',
-            padding: '4px',
-            marginBottom: '12px',
-          }}
-        >
+        <div className={clsx(styles.companyContainer)}>
           <img
-            style={{
-              margin: 'auto',
-              display: 'block',
-            }}
-            height='32px'
+            loading='lazy'
+            className={clsx(styles.companyImage)}
             src={imgSrc}
             alt={`${company} logo`}
           />

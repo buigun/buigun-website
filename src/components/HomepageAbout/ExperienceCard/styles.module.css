@@ -1,0 +1,17 @@
+.experienceCardContainer {
+  margin-bottom: 10px;
+}
+
+.companyContainer {
+  background-color: #ebedf0;
+  border-radius: 8px;
+  text-align: center;
+  padding: 4px;
+  margin-bottom: 12px;
+}
+
+.companyImage {
+  margin: auto;
+  display: block;
+  height: 32px;
+}

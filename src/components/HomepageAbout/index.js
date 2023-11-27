@@ -4,6 +4,7 @@ import ParagonImage from '../../../static/img/paragon-corp.png';
 import XtrImage from '../../../static/img/xtrlogo.png';
 import styles from './styles.module.css';
 import ExperienceCard from './ExperienceCard';
+import TechStack from './TechStack';
 
 export default function HomepageAbout() {
   const experienceList = [
@@ -72,71 +73,7 @@ export default function HomepageAbout() {
               creative and technical aspects of web development.
             </p>
             <h3>My tech stack</h3>
-            <div
-              style={{
-                display: 'flex',
-                gap: '10px',
-                flexWrap: 'wrap',
-                marginBottom: '30px',
-              }}
-            >
-              <img
-                loading='lazy'
-                height='24px'
-                src='https://img.shields.io/badge/-JavaScript-333333?style=flat&amp;logo=javascript'
-                alt='JavaScript'
-                className='img_Puoe'
-              />
-              <img
-                loading='lazy'
-                height='24px'
-                src='https://img.shields.io/badge/-TypeScript-333333?style=flat&amp;logo=typescript'
-                alt='TypeScript'
-                className='img_Puoe'
-              />
-              <img
-                loading='lazy'
-                height='24px'
-                src='https://img.shields.io/badge/-React-333333?style=flat&amp;logo=react'
-                alt='React'
-                className='img_Puoe'
-              />
-              <img
-                loading='lazy'
-                height='24px'
-                src='https://img.shields.io/badge/-Vue-333333?style=flat&amp;logo=vue.js'
-                alt='Vue'
-                className='img_Puoe'
-              />
-              <img
-                loading='lazy'
-                height='24px'
-                src='https://img.shields.io/badge/-Node-333333?style=flat&amp;logo=node.js'
-                alt='Node.js'
-                className='img_Puoe'
-              />
-              <img
-                loading='lazy'
-                height='24px'
-                src='https://img.shields.io/badge/-Git-333333?style=flat-square&amp;logo=git'
-                alt='Git'
-                className='img_Puoe'
-              />
-              <img
-                loading='lazy'
-                height='24px'
-                src='https://img.shields.io/badge/-Postgresql-333333?style=flat&amp;logo=postgresql'
-                alt='PostgreSql'
-                className='img_Puoe'
-              />
-              <img
-                loading='lazy'
-                height='24px'
-                src='https://img.shields.io/badge/-Jira-333333?style=flat&amp;logo=jira'
-                alt='jira'
-                className='img_Puoe'
-              />
-            </div>
+            <TechStack />
             <h3>My experience</h3>
             <div>
               {experienceList.map((experience, idx) => (
