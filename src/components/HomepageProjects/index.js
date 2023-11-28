@@ -1,11 +1,16 @@
 import React from 'react';
 import clsx from 'clsx';
 import styles from './styles.module.css';
+import MagpieV3 from '../../../static/img/magpie-v3.png';
+import Sentichat from '../../../static/img/sentichat.svg';
+import Performa from '../../../static/img/performa.png';
+import MagpieV2 from '../../../static/img/magpie-v2.svg';
+import Omg from '../../../static/img/omg.png';
 
 const projectList = [
   {
     title: 'Magpie V3',
-    img: 'test',
+    img: <img height={'32px'} src={MagpieV3} />,
     status: 'Launched',
     role: 'Frontend developer',
     description: (
@@ -70,7 +75,7 @@ const projectList = [
   },
   {
     title: 'Sentichat',
-    img: 'test',
+    img: <Sentichat style={{ height: '32px' }} />,
     status: 'Launched',
     role: 'Frontend developer',
     description: (
@@ -118,7 +123,7 @@ const projectList = [
   },
   {
     title: 'Performa',
-    img: 'test',
+    img: <img height={'32px'} src={Performa} />,
     status: 'Launched',
     role: 'Frontend developer',
     description: (
@@ -169,7 +174,7 @@ const projectList = [
   },
   {
     title: 'Magpie V2',
-    img: 'test',
+    img: <MagpieV2 style={{ height: '32px', marginLeft: '-24px' }} />,
     status: 'Launched',
     role: 'Frontend developer',
     description: (
@@ -219,8 +224,8 @@ const projectList = [
     ),
   },
   {
-    title: 'OMG',
-    img: 'test',
+    title: 'OMG Oh My Glam',
+    img: <img height={'32px'} src={Omg} />,
     status: 'Launched',
     role: 'Frontend developer',
     description: (
@@ -309,7 +314,9 @@ function ProjectCard({ title, img, status, role, description }) {
   return (
     <div className='col col--4'>
       <div className={clsx(styles.projectCard)}>
-        <div className='text--justify'>{img}</div>
+        <div className='text--justify' style={{ marginBottom: '16px' }}>
+          {img}
+        </div>
         <div className='text--justify'>
           <h3>{title}</h3>
           <p>Status: {status}</p>
