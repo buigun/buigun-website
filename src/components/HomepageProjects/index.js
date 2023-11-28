@@ -6,6 +6,7 @@ import Sentichat from '../../../static/img/sentichat.svg';
 import Performa from '../../../static/img/performa.png';
 import MagpieV2 from '../../../static/img/magpie-v2.svg';
 import Omg from '../../../static/img/omg.png';
+import Lifeline from '../../../static/img/lifeline.png';
 
 const projectList = [
   {
@@ -38,13 +39,6 @@ const projectList = [
             loading='lazy'
             height='24px'
             src='https://img.shields.io/badge/-ChakraUI-333333?style=flat&amp;logo=chakra-ui'
-            alt='chakra-ui'
-            className='img_Puoe'
-          />
-          <img
-            loading='lazy'
-            height='24px'
-            src='https://img.shields.io/badge/-ReactQuery-333333?style=flat&amp;logo=react-query'
             alt='chakra-ui'
             className='img_Puoe'
           />
@@ -266,7 +260,7 @@ const projectList = [
   },
   {
     title: 'Lifeline',
-    img: 'test',
+    img: <img height={'32px'} src={Lifeline} />,
     status: 'Terminated',
     role: 'Frontend developer',
     description: (
