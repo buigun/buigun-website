@@ -8,48 +8,300 @@ const projectList = [
     img: 'test',
     status: 'Launched',
     role: 'Frontend developer',
-    description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam quisquam inventore repudiandae ea nemo quas temporibus necessitatibus deleniti ipsum. Adipisci eum amet quis! Assumenda quibusdam, consequuntur facilis rerum dolorum molestiae!',
+    description: (
+      <>
+        <p>
+          An order management system that automates tracking the number of
+          orders and stock in multiple e-commerces.
+        </p>
+        <div className={clsx(styles.techStackContainer)}>
+          <img
+            loading='lazy'
+            height='24px'
+            src='https://img.shields.io/badge/-JavaScript-333333?style=flat&amp;logo=javascript'
+            alt='JavaScript'
+            className='img_Puoe'
+          />
+          <img
+            loading='lazy'
+            height='24px'
+            src='https://img.shields.io/badge/-React-333333?style=flat&amp;logo=react'
+            alt='React'
+            className='img_Puoe'
+          />
+          <img
+            loading='lazy'
+            height='24px'
+            src='https://img.shields.io/badge/-ChakraUI-333333?style=flat&amp;logo=chakra-ui'
+            alt='chakra-ui'
+            className='img_Puoe'
+          />
+          <img
+            loading='lazy'
+            height='24px'
+            src='https://img.shields.io/badge/-ReactQuery-333333?style=flat&amp;logo=react-query'
+            alt='chakra-ui'
+            className='img_Puoe'
+          />
+          <img
+            loading='lazy'
+            height='24px'
+            src='https://img.shields.io/badge/-Cypress-333333?style=flat&amp;logo=cypress'
+            alt='cypress'
+            className='img_Puoe'
+          />
+          <img
+            loading='lazy'
+            height='24px'
+            src='https://img.shields.io/badge/-Git-333333?style=flat-square&amp;logo=git'
+            alt='Git'
+            className='img_Puoe'
+          />
+          <img
+            loading='lazy'
+            height='24px'
+            src='https://img.shields.io/badge/-Jira-333333?style=flat&amp;logo=jira'
+            alt='jira'
+            className='img_Puoe'
+          />
+        </div>
+      </>
+    ),
   },
   {
     title: 'Sentichat',
     img: 'test',
     status: 'Launched',
     role: 'Frontend developer',
-    description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam quisquam inventore repudiandae ea nemo quas temporibus necessitatibus deleniti ipsum. Adipisci eum amet quis! Assumenda quibusdam, consequuntur facilis rerum dolorum molestiae!',
+    description: (
+      <>
+        <p>Revolutionising communication with seamless AI integration.</p>
+        <div className={clsx(styles.techStackContainer)}>
+          <img
+            loading='lazy'
+            height='24px'
+            src='https://img.shields.io/badge/-TypeScript-333333?style=flat&amp;logo=typescript'
+            alt='TypeScript'
+            className='img_Puoe'
+          />
+          <img
+            loading='lazy'
+            height='24px'
+            src='https://img.shields.io/badge/-React-333333?style=flat&amp;logo=react'
+            alt='React'
+            className='img_Puoe'
+          />
+          <img
+            loading='lazy'
+            height='24px'
+            src='https://img.shields.io/badge/-sass-333333?style=flat&amp;logo=sass'
+            alt='Sass'
+            className='img_Puoe'
+          />
+          <img
+            loading='lazy'
+            height='24px'
+            src='https://img.shields.io/badge/-Git-333333?style=flat-square&amp;logo=git'
+            alt='Git'
+            className='img_Puoe'
+          />
+          <img
+            loading='lazy'
+            height='24px'
+            src='https://img.shields.io/badge/-Jira-333333?style=flat&amp;logo=jira'
+            alt='jira'
+            className='img_Puoe'
+          />
+        </div>
+      </>
+    ),
   },
   {
     title: 'Performa',
     img: 'test',
     status: 'Launched',
     role: 'Frontend developer',
-    description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam quisquam inventore repudiandae ea nemo quas temporibus necessitatibus deleniti ipsum. Adipisci eum amet quis! Assumenda quibusdam, consequuntur facilis rerum dolorum molestiae!',
+    description: (
+      <>
+        <p>
+          An employee performance management system that manages OKR and
+          performance review.
+        </p>
+        <div className={clsx(styles.techStackContainer)}>
+          <img
+            loading='lazy'
+            height='24px'
+            src='https://img.shields.io/badge/-JavaScript-333333?style=flat&amp;logo=javascript'
+            alt='JavaScript'
+            className='img_Puoe'
+          />
+          <img
+            loading='lazy'
+            height='24px'
+            src='https://img.shields.io/badge/-Vue-333333?style=flat&amp;logo=vue.js'
+            alt='Vue'
+            className='img_Puoe'
+          />
+          <img
+            loading='lazy'
+            height='24px'
+            src='https://img.shields.io/badge/-sass-333333?style=flat&amp;logo=sass'
+            alt='Sass'
+            className='img_Puoe'
+          />
+          <img
+            loading='lazy'
+            height='24px'
+            src='https://img.shields.io/badge/-Git-333333?style=flat-square&amp;logo=git'
+            alt='Git'
+            className='img_Puoe'
+          />
+          <img
+            loading='lazy'
+            height='24px'
+            src='https://img.shields.io/badge/-Jira-333333?style=flat&amp;logo=jira'
+            alt='jira'
+            className='img_Puoe'
+          />
+        </div>
+      </>
+    ),
   },
   {
     title: 'Magpie V2',
     img: 'test',
     status: 'Launched',
     role: 'Frontend developer',
-    description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam quisquam inventore repudiandae ea nemo quas temporibus necessitatibus deleniti ipsum. Adipisci eum amet quis! Assumenda quibusdam, consequuntur facilis rerum dolorum molestiae!',
+    description: (
+      <>
+        <p>
+          An enabler that manage warehouse and simplifies the process from order
+          to delivery for multiple e-commerces.
+        </p>
+        <div className={clsx(styles.techStackContainer)}>
+          <img
+            loading='lazy'
+            height='24px'
+            src='https://img.shields.io/badge/-TypeScript-333333?style=flat&amp;logo=typescript'
+            alt='TypeScript'
+            className='img_Puoe'
+          />
+          <img
+            loading='lazy'
+            height='24px'
+            src='https://img.shields.io/badge/-NextJS-333333?style=flat&amp;logo=next.js'
+            alt='Next'
+            className='img_Puoe'
+          />
+          <img
+            loading='lazy'
+            height='24px'
+            src='https://img.shields.io/badge/-ChakraUI-333333?style=flat&amp;logo=chakra-ui'
+            alt='chakra-ui'
+            className='img_Puoe'
+          />
+          <img
+            loading='lazy'
+            height='24px'
+            src='https://img.shields.io/badge/-Swr-333333?style=flat&amp;logo=swr'
+            alt='Swr'
+            className='img_Puoe'
+          />
+          <img
+            loading='lazy'
+            height='24px'
+            src='https://img.shields.io/badge/-Git-333333?style=flat-square&amp;logo=git'
+            alt='Git'
+            className='img_Puoe'
+          />
+        </div>
+      </>
+    ),
   },
   {
     title: 'OMG',
     img: 'test',
     status: 'Launched',
     role: 'Frontend developer',
-    description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam quisquam inventore repudiandae ea nemo quas temporibus necessitatibus deleniti ipsum. Adipisci eum amet quis! Assumenda quibusdam, consequuntur facilis rerum dolorum molestiae!',
+    description: (
+      <>
+        <p>A landing page for beauty product called OMG Oh My Glam.</p>
+        <div className={clsx(styles.techStackContainer)}>
+          <img
+            loading='lazy'
+            height='24px'
+            src='https://img.shields.io/badge/-JavaScript-333333?style=flat&amp;logo=javascript'
+            alt='JavaScript'
+            className='img_Puoe'
+          />
+          <img
+            loading='lazy'
+            height='24px'
+            src='https://img.shields.io/badge/-GatsbyJS-333333?style=flat&amp;logo=gatsby'
+            alt='Next'
+            className='img_Puoe'
+          />
+          <img
+            loading='lazy'
+            height='24px'
+            src='https://img.shields.io/badge/-ChakraUI-333333?style=flat&amp;logo=chakra-ui'
+            alt='chakra-ui'
+            className='img_Puoe'
+          />
+          <img
+            loading='lazy'
+            height='24px'
+            src='https://img.shields.io/badge/-Git-333333?style=flat-square&amp;logo=git'
+            alt='Git'
+            className='img_Puoe'
+          />
+        </div>
+      </>
+    ),
   },
   {
     title: 'Lifeline',
     img: 'test',
-    status: 'Launched',
+    status: 'Terminated',
     role: 'Frontend developer',
-    description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam quisquam inventore repudiandae ea nemo quas temporibus necessitatibus deleniti ipsum. Adipisci eum amet quis! Assumenda quibusdam, consequuntur facilis rerum dolorum molestiae!',
+    description: (
+      <>
+        <p>
+          Plasma convalescent donors app that securing 2nd place finish in the
+          IT Paragon internal hackathon.
+        </p>
+        <div className={clsx(styles.techStackContainer)}>
+          <img
+            loading='lazy'
+            height='24px'
+            src='https://img.shields.io/badge/-JavaScript-333333?style=flat&amp;logo=javascript'
+            alt='JavaScript'
+            className='img_Puoe'
+          />
+          <img
+            loading='lazy'
+            height='24px'
+            src='https://img.shields.io/badge/-React-333333?style=flat&amp;logo=react'
+            alt='React'
+            className='img_Puoe'
+          />
+          <img
+            loading='lazy'
+            height='24px'
+            src='https://img.shields.io/badge/-ChakraUI-333333?style=flat&amp;logo=chakra-ui'
+            alt='chakra-ui'
+            className='img_Puoe'
+          />
+          <img
+            loading='lazy'
+            height='24px'
+            src='https://img.shields.io/badge/-Git-333333?style=flat-square&amp;logo=git'
+            alt='Git'
+            className='img_Puoe'
+          />
+        </div>
+      </>
+    ),
   },
 ];
 
@@ -62,7 +314,7 @@ function ProjectCard({ title, img, status, role, description }) {
           <h3>{title}</h3>
           <p>Status: {status}</p>
           <p>Role: {role}</p>
-          <p>{description}</p>
+          {description}
         </div>
       </div>
     </div>
