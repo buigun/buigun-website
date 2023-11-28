@@ -10,10 +10,10 @@ import { TypeAnimation } from 'react-type-animation';
 import HeroImg from '../../static/img/header-img.svg';
 
 import HomepageAbout from '../components/HomepageAbout';
-// import HomepageFeatures from '@site/src/components/HomepageFeatures';
 
 import styles from './index.module.css';
 import 'animate.css';
+import HomepageProjects from '../components/HomepageProjects';
 
 function HomepageHeader() {
   return (
@@ -79,8 +79,8 @@ export default function Home() {
     <Layout description='Description will go into a meta tag in <head />'>
       <HomepageHeader />
       <main>
-        {/* <HomepageFeatures /> */}
         <HomepageAbout />
+        <HomepageProjects />
       </main>
     </Layout>
   );

@@ -1,0 +1,29 @@
+.projectsContainer {
+  background: #151515;
+  padding: 60px 0 200px 0;
+}
+
+.headerProjects {
+  font-size: 60px;
+  line-height: 75px;
+  font-weight: 500;
+  text-transform: none;
+  color: white;
+}
+
+.projectCard {
+  padding: 16px 32px;
+  background-color: #1c1c1d;
+  border-radius: 8px;
+  color: white;
+  margin-bottom: 32px;
+  border: 1px solid #293856;
+}
+
+@media screen and (max-width: 996px) {
+  .headerProjects {
+    font-size: 32px;
+    line-height: 40px;
+    margin-bottom: 32px;
+  }
+}
