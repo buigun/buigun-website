@@ -18,7 +18,7 @@ const projectList = [
       <>
         <p>
           An order management system that automates tracking the number of
-          orders and stock in multiple e-commerces.
+          orders and stock in multiple e-commerces
         </p>
         <div className={clsx(styles.techStackContainer)}>
           <img
@@ -74,7 +74,7 @@ const projectList = [
     role: 'Frontend developer',
     description: (
       <>
-        <p>Revolutionising communication with seamless AI integration.</p>
+        <p>Revolutionising communication with seamless AI integration</p>
         <div className={clsx(styles.techStackContainer)}>
           <img
             loading='lazy'
@@ -124,7 +124,7 @@ const projectList = [
       <>
         <p>
           An employee performance management system that manages OKR and
-          performance review.
+          performance review
         </p>
         <div className={clsx(styles.techStackContainer)}>
           <img
@@ -175,7 +175,7 @@ const projectList = [
       <>
         <p>
           An enabler that manage warehouse and simplifies the process from order
-          to delivery for multiple e-commerces.
+          to delivery for multiple e-commerces
         </p>
         <div className={clsx(styles.techStackContainer)}>
           <img
@@ -224,7 +224,7 @@ const projectList = [
     role: 'Frontend developer',
     description: (
       <>
-        <p>A landing page for beauty product called OMG Oh My Glam.</p>
+        <p>A landing page for beauty product called OMG Oh My Glam</p>
         <div className={clsx(styles.techStackContainer)}>
           <img
             loading='lazy'
@@ -267,7 +267,7 @@ const projectList = [
       <>
         <p>
           Plasma convalescent donors app that securing 2nd place finish in the
-          IT Paragon internal hackathon.
+          IT Paragon internal hackathon
         </p>
         <div className={clsx(styles.techStackContainer)}>
           <img
