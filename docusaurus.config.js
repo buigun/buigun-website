@@ -6,9 +6,9 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Buigun Website',
+  title: 'Budi Indra Gunawan',
   tagline: 'I love to write codes and words',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/favicon2.ico',
 
   // Set the production url of your site here
   url: 'https://your-docusaurus-test-site.com',
