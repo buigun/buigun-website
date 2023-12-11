@@ -71,8 +71,8 @@ const config = {
         },
         items: [
           {
-            to: '/#about',
-            activeBasePath: '/#about',
+            to: '#about',
+            activeBasePath: '#about',
             label: 'About',
             position: 'left',
           },
@@ -83,8 +83,8 @@ const config = {
           //   position: 'left',
           // },
           {
-            to: '/#projects',
-            activeBasePath: '/#projects',
+            to: '#projects',
+            activeBasePath: '#projects',
             label: 'Projects',
             position: 'left',
           },
@@ -150,7 +150,7 @@ const config = {
             items: [
               {
                 label: 'About',
-                to: '/#about',
+                to: '#about',
               },
               // {
               //   label: 'Experiences',
@@ -158,7 +158,7 @@ const config = {
               // },
               {
                 label: 'Projects',
-                to: '/#projects',
+                to: '#projects',
               },
               {
                 label: 'Blog',
